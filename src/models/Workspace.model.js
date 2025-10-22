@@ -27,4 +27,4 @@ const workspaceSchema = new moongoose.Schema(
 
 const Workspace = moongoose.model('Workspace', workspaceSchema)
 
-export default workspaceSchema
+export default Workspace
