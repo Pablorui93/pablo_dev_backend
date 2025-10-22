@@ -1,4 +1,4 @@
-import Workspace from "../models/workspace.model.js";
+import workspaceSchema from "../models/workspace.model.js";
 
 class WorkspaceRepository {
     static async create(name, url_image) {
